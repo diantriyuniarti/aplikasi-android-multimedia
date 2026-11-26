@@ -1,0 +1,37 @@
+<resources>
+    <string name="user_name">Dian Tri Yuniarti 06TPLP028</string>
+    <string name="mobile_programming">MOBILE PROGRAMMING</string>
+    <string name="app_name">MY FIRST APPLICATION</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOG IN</string>
+    <string name="register">Tidak Memiliki Akun? Register disini.</string>
+    <string name="logo_desc">Logo aplikasi</string>
+    <string name="person_icon">Ikon pengguna</string>
+    <string name="image_desc">Ikon password</string>
+
+    <!-- Info untuk tablayout -->
+    <string name="user_header">Dian Tri Yuniarti 06TPLP028</string>
+    <string name="tab1">PROFILE</string>
+    <string name="tab2">My Konten</string>
+    <string name="nama">Dian Tri Yuniarti</string>
+    <string name="kelas">06TPLP028</string>
+    <string name="prodi"> &#160;Prodi&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;: Teknik Informatika</string>
+    <string name="tanggal_lahir"> &#160;Tanggal Lahir : 10 Mei 2003</string>
+    <string name="alamat"> &#160;Alamat &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;: Cirebon, Jawa Barat</string>
+    <string name="hobi">&#160;Hobi  &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;: Membaca, Desain</string>
+    <string name="email">&#160;Email&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;: diantriyuniarti@email.com</string>
+    <string name="profile_photo_desc">Foto profil pengguna</string>
+
+    <!-- Konten Galeri (contentDescription) -->
+    <string name="foto_unpam">Foto kegiatan di kampus Universitas Pamulang</string>
+    <string name="foto_kegiatan">Foto kegiatan kampus</string>
+    <string name="foto_coding">Foto saat coding</string>
+    <string name="foto_pmm">Foto kegiatan PMM</string>
+    <string name="foto_diskusi">Foto diskusi kelompok</string>
+    <string name="foto_mhs">Foto kegiatan mahasiswa</string>
+    <string name="foto_santai">Foto momen santai</string>
+
+    <string name="my_dashboard">MY DASHBOARD</string>
+    <string name="about_me">About Me</string>
+</resources>

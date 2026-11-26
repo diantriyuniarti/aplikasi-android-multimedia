@@ -1,0 +1,29 @@
+<resources>
+    <string name="user_name">Dian Tri Yuniarti 06TPLP028</string>
+    <string name="mobile_programming">MOBILE PROGRAMMING</string>
+    <string name="app_name">MY FIRST APPLICATION</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOG IN</string>
+    <string name="register">Tidak Memiliki Akun? Register disini.</string>
+    <string name="logo_desc">Logo aplikasi</string>
+    <string name="person_icon">Ikon pengguna</string>
+    <string name="image_desc">Ikon password</string>
+
+    <!-- Info untuk tablayout -->
+    <string name="user_header">Dian Tri Yuniarti 06TPLP028</string>
+    <string name="tab1">PROFILE</string>
+    <string name="tab2">My Konten</string>
+    <string name="nama">Dian Tri Yuniarti</string>
+    <string name="kelas">06TPLP028</string>
+    <string name="prodi">📌 Prodi                 : Teknik Informatika</string>
+    <string name="tanggal_lahir">🎂 Tanggal Lahir : 10 Mei 2003</string>
+    <string name="alamat">📍 Alamat               : Cirebon, Jawa Barat</string>
+    <string name="hobi">🎯 Hobi                   : Membaca, Desain</string>
+    <string name="email">📧 Email                 : diantriyuniarti@email.com</string>
+    <string name="profile_photo_desc">Foto profil pengguna</string>
+    <string name="foto_unpam">Foto kampus Universitas Pamulang</string>
+
+    <string name="my_dashboard">MY DASHBOARD</string>
+    <string name="about_me">About Me</string>
+</resources>
