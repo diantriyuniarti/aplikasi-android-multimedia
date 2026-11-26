@@ -1,56 +1,54 @@
-# 📱 Aplikasi Android Multimedia & Navigasi (DianTriYuniarti.apk)
+# Aplikasi Android Multimedia dan Navigasi
 
-[![Android](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)](https://developer.android.com/)
-[![Java](https://img.shields.io/badge/Language-Java-ED8B00?logo=openjdk&logoColor=white)](https://www.java.com/)
-[![APK](https://img.shields.io/badge/Release-APK%20Available-blue?logo=android)](apk/DianTriYuniarti.apk)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-> **Aplikasi Android Native untuk Integrasi Kamera Hardware, Navigasi Tab Layout, dan In-App Web Browser.**  
-> Dikembangkan oleh **Dian Tri Yuniarti** (Program Studi Teknik Informatika — Universitas Pamulang).
+Mata Kuliah: Pemrograman Mobile  
+Program Studi S1 Teknik Informatika, Universitas Pamulang  
+Pengembang: Dian Tri Yuniarti
 
 ---
 
-## 🌟 Fitur Utama
+## Deskripsi Aplikasi
 
-- **📷 Integrasi Hardware Kamera (`camera.java`)**:
-  - Mengakses kamera perangkat smartphone untuk pengambilan foto langsung dari aplikasi.
-- **📑 Navigasi Tab Layout Modern (`tablayout.java`)**:
-  - Navigasi multi-halaman interaktif menggunakan `TabLayout` dan `ViewPager`.
-- **🌐 In-App WebView Browser (`webview.java`)**:
-  - Menampilkan halaman web secara responsif langsung di dalam aplikasi tanpa membuka browser eksternal.
-- **📦 Signed APK Siap Install**:
-  - File instalasi resmi release tersedia pada folder [`apk/DianTriYuniarti.apk`](apk/DianTriYuniarti.apk).
+Aplikasi mobile Android native yang mengimplementasikan integrasi perangkat keras kamera smartphone, navigasi halaman multi-tab dengan TabLayout dan ViewPager, serta penampil konten web langsung di dalam aplikasi menggunakan WebView.
+
+Paket instalasi Android (release APK) yang telah ditandatangani (signed APK) disertakan dalam repositori ini pada direktori `apk/DianTriYuniarti.apk`.
 
 ---
 
-## 💻 Tech Stack
+## Fitur Utama
 
-- **Platform**: Android
-- **Bahasa**: Java
-- **IDE**: Android Studio
-- **Komponen UI**: Activity, Intent, Camera API, WebView, TabLayout
+1. Integrasi Kamera Hardware (camera.java)
+   * Membuka kamera bawaan perangkat melalui Android Intent dan menangkap hasil gambar ke dalam aplikasi.
+
+2. Navigasi Tab Layout (tablayout.java)
+   * Implementasi komponen TabLayout dan ViewPager untuk navigasi konten bertingkat.
+
+3. In-App Web Browser (webview.java)
+   * Merender tautan web langsung di dalam antarmuka aplikasi Android.
+
+4. File Instalasi Rilis (Release APK)
+   * File instalasi biner rilis mandiri siap pasang: `apk/DianTriYuniarti.apk`.
 
 ---
 
-## 🚀 Cara Menjalankan
+## Arsitektur Teknologi
 
-1. **Install File APK Langsung ke Smartphone**:
-   - Unduh file [`apk/DianTriYuniarti.apk`](apk/DianTriYuniarti.apk).
-   - Pasang file `.apk` pada smartphone Android Anda.
+* Platform: Android OS
+* Bahasa Pemrograman: Java
+* IDE: Android Studio
+* Build System: Gradle
+* Komponen Android: Activity, Intent, Camera API, WebView, TabLayout, ViewPager
 
-2. **Jalankan Source Code di Android Studio**:
-   - Clone repository ini:
+---
+
+## Panduan Menjalankan
+
+1. Memasang File APK Langsung ke Perangkat:
+   * Unduh file `apk/DianTriYuniarti.apk` dari repositori ini.
+   * Pasang pada perangkat Android dengan mengaktifkan izin instalasi dari sumber tidak dikenal jika diperlukan.
+
+2. Membuka Source Code di Android Studio:
+   * Clone repositori:
      ```bash
      git clone git@github.com:diantriyuniarti/aplikasi-android-multimedia.git
      ```
-   - Buka project di **Android Studio** dan klik **Run** (Shift + F10).
-
----
-
-## 👩‍💻 Pengembang
-
-**Dian Tri Yuniarti**  
-- Lulusan S1 Teknik Informatika — Universitas Pamulang (IPK: 3.65)  
-- Portofolio Resmi: [diantriyuniarti.github.io](https://diantriyuniarti.github.io)  
-- LinkedIn: [Dian Tri Yuniarti](https://linkedin.com/in/diantriyuniarti)  
-- Email: `diantriyuniarti025@gmail.com`
+   * Buka proyek melalui Android Studio dan jalankan proses build atau Run pada perangkat pengujian.
